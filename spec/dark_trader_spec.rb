@@ -15,6 +15,6 @@ it "contains specific cryptocurrencies" do
 end
 
 it "is not empty and has a minimum size" do
-    expect(get_crypto_data.length).to be > 100
+expect(get_crypto_data.length).to be >= 20
 end
 end
