@@ -34,7 +34,7 @@ def get_crypto_data
     crypto_final_array << { symbol => price }
     
     # Affichage en temps réel pour vérifier que le programme travaille
-    puts "Récupéré : #{symbol} => #{price}"
+    puts " : #{symbol} => #{price}"
   end
 
   # 6. Retour de la donnée
